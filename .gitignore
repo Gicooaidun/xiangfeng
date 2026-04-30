@@ -1,0 +1,20 @@
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large local data files and generated datasets
+test/
+test_radar_6min/
+aligned_radar_station_npy/
+
+# Training weights and experiment logs
+training_outputs/*.pt
+training_outputs/*.pth
+training_outputs/*.ckpt
+swanlog/
+swanlab/
+
+# Notebook/runtime noise
+.ipynb_checkpoints/
